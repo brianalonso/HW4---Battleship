@@ -1,5 +1,5 @@
 //
-//  BDAViewController.h
+//  BDAHandleGestures.h
 //  HW4 - Battleship
 //
 //  Created by Brian Alonso on 2/16/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BDAViewController : UIViewController <UIGestureRecognizerDelegate>
+@interface BDAHandleGestures : UIImageView <UIGestureRecognizerDelegate>
 
 @end

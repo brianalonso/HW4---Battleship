@@ -18,6 +18,13 @@
 		164EACAB16D041B100DD52EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EACAA16D041B100DD52EB /* Default-568h@2x.png */; };
 		164EACAE16D041B100DD52EB /* BDAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 164EACAD16D041B100DD52EB /* BDAViewController.m */; };
 		164EACB116D041B100DD52EB /* BDAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164EACAF16D041B100DD52EB /* BDAViewController.xib */; };
+		164EACBA16D0423C00DD52EB /* BDASectorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 164EACB916D0423C00DD52EB /* BDASectorModel.m */; };
+		164EACBE16D0433900DD52EB /* BDASectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 164EACBD16D0433900DD52EB /* BDASectorView.m */; };
+		164EACC616D08F9C00DD52EB /* battleship.gif in Resources */ = {isa = PBXBuildFile; fileRef = 164EACC516D08F9C00DD52EB /* battleship.gif */; };
+		164EACC816D0910000DD52EB /* submarine.gif in Resources */ = {isa = PBXBuildFile; fileRef = 164EACC716D0910000DD52EB /* submarine.gif */; };
+		164EACCA16D0910A00DD52EB /* commandship.gif in Resources */ = {isa = PBXBuildFile; fileRef = 164EACC916D0910A00DD52EB /* commandship.gif */; };
+		164EACCD16D098F300DD52EB /* aircraftcarrier.gif in Resources */ = {isa = PBXBuildFile; fileRef = 164EACCC16D098F200DD52EB /* aircraftcarrier.gif */; };
+		164EACD416D0AA9400DD52EB /* BDAHandleGestures.m in Sources */ = {isa = PBXBuildFile; fileRef = 164EACD316D0AA9400DD52EB /* BDAHandleGestures.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,16 @@
 		164EACAC16D041B100DD52EB /* BDAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDAViewController.h; sourceTree = "<group>"; };
 		164EACAD16D041B100DD52EB /* BDAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDAViewController.m; sourceTree = "<group>"; };
 		164EACB016D041B100DD52EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BDAViewController.xib; sourceTree = "<group>"; };
+		164EACB816D0423C00DD52EB /* BDASectorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDASectorModel.h; sourceTree = "<group>"; };
+		164EACB916D0423C00DD52EB /* BDASectorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDASectorModel.m; sourceTree = "<group>"; };
+		164EACBC16D0433900DD52EB /* BDASectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDASectorView.h; sourceTree = "<group>"; };
+		164EACBD16D0433900DD52EB /* BDASectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDASectorView.m; sourceTree = "<group>"; };
+		164EACC516D08F9C00DD52EB /* battleship.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = battleship.gif; sourceTree = "<group>"; };
+		164EACC716D0910000DD52EB /* submarine.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = submarine.gif; sourceTree = "<group>"; };
+		164EACC916D0910A00DD52EB /* commandship.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = commandship.gif; sourceTree = "<group>"; };
+		164EACCC16D098F200DD52EB /* aircraftcarrier.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = aircraftcarrier.gif; sourceTree = "<group>"; };
+		164EACD216D0AA9400DD52EB /* BDAHandleGestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAHandleGestures.h; sourceTree = "<group>"; };
+		164EACD316D0AA9400DD52EB /* BDAHandleGestures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAHandleGestures.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +100,14 @@
 		164EAC9A16D041B100DD52EB /* HW4 - Battleship */ = {
 			isa = PBXGroup;
 			children = (
+				164EACBB16D0432800DD52EB /* Views */,
+				164EACB716D0420C00DD52EB /* Model */,
 				164EACA316D041B100DD52EB /* BDAAppDelegate.h */,
 				164EACA416D041B100DD52EB /* BDAAppDelegate.m */,
 				164EACAC16D041B100DD52EB /* BDAViewController.h */,
 				164EACAD16D041B100DD52EB /* BDAViewController.m */,
 				164EACAF16D041B100DD52EB /* BDAViewController.xib */,
+				164EACCB16D0914200DD52EB /* images */,
 				164EAC9B16D041B100DD52EB /* Supporting Files */,
 			);
 			path = "HW4 - Battleship";
@@ -105,6 +125,37 @@
 				164EACAA16D041B100DD52EB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		164EACB716D0420C00DD52EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				164EACB816D0423C00DD52EB /* BDASectorModel.h */,
+				164EACB916D0423C00DD52EB /* BDASectorModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		164EACBB16D0432800DD52EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				164EACBC16D0433900DD52EB /* BDASectorView.h */,
+				164EACBD16D0433900DD52EB /* BDASectorView.m */,
+				164EACD216D0AA9400DD52EB /* BDAHandleGestures.h */,
+				164EACD316D0AA9400DD52EB /* BDAHandleGestures.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		164EACCB16D0914200DD52EB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				164EACCC16D098F200DD52EB /* aircraftcarrier.gif */,
+				164EACC716D0910000DD52EB /* submarine.gif */,
+				164EACC916D0910A00DD52EB /* commandship.gif */,
+				164EACC516D08F9C00DD52EB /* battleship.gif */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +215,10 @@
 				164EACA916D041B100DD52EB /* Default@2x.png in Resources */,
 				164EACAB16D041B100DD52EB /* Default-568h@2x.png in Resources */,
 				164EACB116D041B100DD52EB /* BDAViewController.xib in Resources */,
+				164EACC616D08F9C00DD52EB /* battleship.gif in Resources */,
+				164EACC816D0910000DD52EB /* submarine.gif in Resources */,
+				164EACCA16D0910A00DD52EB /* commandship.gif in Resources */,
+				164EACCD16D098F300DD52EB /* aircraftcarrier.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +232,9 @@
 				164EACA116D041B100DD52EB /* main.m in Sources */,
 				164EACA516D041B100DD52EB /* BDAAppDelegate.m in Sources */,
 				164EACAE16D041B100DD52EB /* BDAViewController.m in Sources */,
+				164EACBA16D0423C00DD52EB /* BDASectorModel.m in Sources */,
+				164EACBE16D0433900DD52EB /* BDASectorView.m in Sources */,
+				164EACD416D0AA9400DD52EB /* BDAHandleGestures.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +357,7 @@
 				164EACB616D041B100DD52EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
